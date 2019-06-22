@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/WSR/Desktop/kei-watch/weather/weather WatchKit Extension/DetailInterfaceController.swift">
+   </FileRef>
+   <FileRef
       location = "group:weather.xcodeproj">
    </FileRef>
    <FileRef

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		100BC7F322BE39EB00E25A1F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100BC7F222BE39EB00E25A1F /* ExtensionDelegate.swift */; };
 		100BC7F522BE39EB00E25A1F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100BC7F422BE39EB00E25A1F /* NotificationController.swift */; };
 		100BC7F722BE39EB00E25A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100BC7F622BE39EB00E25A1F /* Assets.xcassets */; };
+		100BC80D22BE41F900E25A1F /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100BC80C22BE41F900E25A1F /* DetailInterfaceController.swift */; };
 		7FBDDF0DEA4D82E6A089A4DE /* Pods_weather_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9846FB4C8C4D78A9F224B97D /* Pods_weather_WatchKit_Extension.framework */; };
 		A605BF2A0A5D8F9ADF475973 /* Pods_weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465AF547146F2D3F88B38EB3 /* Pods_weather.framework */; };
 /* End PBXBuildFile section */
@@ -86,6 +87,7 @@
 		100BC7F622BE39EB00E25A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100BC7F822BE39EB00E25A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100BC7F922BE39EB00E25A1F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		100BC80C22BE41F900E25A1F /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailInterfaceController.swift; path = "/Users/WSR/Desktop/kei-watch/weather/weather WatchKit Extension/DetailInterfaceController.swift"; sourceTree = "<absolute>"; };
 		465AF547146F2D3F88B38EB3 /* Pods_weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCAD73E8F7E9C777F393784 /* Pods_weather_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6239E57960D4D92FC9C0FF1D /* Pods-weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather.debug.xcconfig"; path = "Target Support Files/Pods-weather/Pods-weather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				100BC7F022BE39EB00E25A1F /* InterfaceController.swift */,
 				100BC7F222BE39EB00E25A1F /* ExtensionDelegate.swift */,
+				100BC80C22BE41F900E25A1F /* DetailInterfaceController.swift */,
 				100BC7F422BE39EB00E25A1F /* NotificationController.swift */,
 				100BC7F622BE39EB00E25A1F /* Assets.xcassets */,
 				100BC7F822BE39EB00E25A1F /* Info.plist */,
@@ -193,7 +196,6 @@
 				D05EF55148F838CF6DDF2495 /* Pods-weather WatchKit Extension.debug.xcconfig */,
 				D95D2ED86E979317119FC6D0 /* Pods-weather WatchKit Extension.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -441,6 +443,7 @@
 			files = (
 				100BC7F522BE39EB00E25A1F /* NotificationController.swift in Sources */,
 				100BC7F322BE39EB00E25A1F /* ExtensionDelegate.swift in Sources */,
+				100BC80D22BE41F900E25A1F /* DetailInterfaceController.swift in Sources */,
 				100BC7F122BE39EB00E25A1F /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
